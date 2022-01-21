@@ -35,3 +35,8 @@ $.getScript('//cdnjs.cloudflare.com/ajax/libs/ace/1.1.3/ace.js',function(){
 >如果问题确实是Ace获得height = 0,则可以在编辑器div中添加明确的高度,
 >,或者如果您希望它适合文本,请设置maxLines和minLines选项,如https://github.com/ajaxorg/ace-builds/blob/v1.1.6/demo/autoresize.html#L41-L43所示,但是建议不要将maxLines设置得太大,因为它会禁用仅绘制可见文本的优化,并且会使大型文档的编辑器变慢.
 ```
+
+# ace的API解释
+![image](https://user-images.githubusercontent.com/37410565/150468190-13684ca8-375e-416d-82aa-2f7842f976b8.png)
+此图片对应的链接为：https://www.cxyzjd.com/article/iteye_5904/82652211
+ace的官网链接为：https://ace.c9.io/#nav=api&api=editor
